@@ -4,4 +4,4 @@ n2 = float(input('Digite sua N2: '))
 
 media = (n1 + n2) / 2
 
-print('Sua média é: {}'.format(media))
+print('Sua média é: {:.2f}'.format(media))
