@@ -32,10 +32,35 @@ print('A raiz de {} é igual a {}'.format(num, raiz))
 
 
 
-#Exemplo 4 usando from import math sqrt, floor
+#Exemplo 5 usando from import math sqrt, floor
 
 from math import sqrt, floor
 
 num = int(input('Digite um número: '))
 raiz = sqrt(num)
 print('A raiz de {} é igual a {}'.format(num, floor(raiz)))
+
+
+
+#Exemplo 6 usando import random para que a máquina me de números aleatorios.
+
+
+import random
+num = random.random()
+print(num)
+
+
+
+#Exemplo 6.1
+
+
+import random
+num = random.randint(1, 100)
+print(num)
+
+
+#Exemplo 7 Importando bibliotecas (Emoji)
+
+
+import emoji
+print(emoji.emojize("Olá Mundo :sunglasses:", use_aliases=True))
